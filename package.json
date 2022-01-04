@@ -8,7 +8,7 @@
         "lint": "eslint -f table",
         "lint:extra": "eslint \"./src/**/*.{js,jsx}\" --fix",
         "start": "webpack-dev-server --watch-poll --mode=development",
-        "test": "jest",
+        "test": "jest --coverage",
         "test:coverage": "jest --coverage --colors",
         "test:watch": "npm run test -- --watch",
         "cypress:test:local": "cypress run",
